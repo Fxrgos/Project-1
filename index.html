@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="Verstka.css" />
+</head>
+
+<body>
+    <div class="mainblock">
+        <header>
+            <img class="logo" src="logo.svg" alt="iinto logo" />
+            <img class="background" src="bg.jpg" alt="iinto background image" />
+        </header>
+        <main>
+            <div class="rightside">
+                <h3>Get iintoo it today</h3>
+                <p class="nocharge">
+                    There is no charge or obligation upon registration.
+                </p>
+                <div>
+                    <a href="https://www.facebook.com" target="_blank"><button class="facebook">
+                            <img class="facelogo" src="facebook.svg" alt="facebook logo" />Register with Facebook
+                        </button></a>
+
+                    <a href="https://www.linkedin.com" target="_blank"><button class="linkedin">
+                            <img class="inlogo" src="linkedin.svg" alt="linkedin logo" />Register with LinkedIn
+                        </button></a>
+                </div>
+                <div class="or">
+                    <span>OR</span>
+                </div>
+
+                <form>
+                    <div class="forms">
+                        <input type="email" class="mail" id="mail" placeholder="" required />
+                        <label for="mail" class="labelmail">Email</label>
+                        <input type="tel" class="phone" id="phone" placeholder="" required />
+                        <label for="phone" class="labelphone">Phone</label>
+                    </div>
+
+                    <h3 class="what-type">What type investor are you?</h3>
+                    <p class="select-type">
+                        Select the type of investor are you below.
+                    </p>
+                    <div class="radiobutton">
+                        <label class="radio-button"><input type="radio" checked /><span>Individual</span>
+                            <p class="note">
+                                I am a natural person investing on my own behalf as a sole owner,
+                                joint tenant, or tenant in common.
+                            </p>
+                        </label>
+                        <label class="radio-button"><input type="radio" /> <span>Business</span>
+                            <p class="note">I am investing through a business account.</p>
+                        </label>
+                        <label class="radio-button"><input type="radio" /> <span>IRA</span>
+                            <p class="note">This account is an Individual Retirement Accou
+                                nt (IRA).</p>
+
+                        </label>
+                        <label class="radio-button"><input type="radio" /><span>Trust</span>
+                            <p class="note">This account is held in trust.</p>
+                        </label>
+                    </div>
+                    <label class="terms">
+                        <input type="checkbox" required /> I agree to the terms and
+                        receiving notifications from iintoo
+                        <a href="#">View full terms</a>
+                    </label>
+
+                    <button class="create" type="submit">Create Account</button>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
