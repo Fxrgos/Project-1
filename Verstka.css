@@ -1,6 +1,6 @@
 @font-face {
   font-family: Barlow;
-  src: url(../fonts/barlow.woff2) format(woff2);
+  src: url(barlow.woff2) format(woff2);
 }
 
 * {
@@ -256,4 +256,5 @@ a {
   position: absolute;
   width: 120px;
   margin: 40px;
+
 }
